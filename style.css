@@ -11,7 +11,7 @@ span {
 }
 
 .text {
-	font-size: 1.2em;
+	font-size: 1.8em;
 	color: #acacac;
 	padding-bottom: 14rem;
 }
@@ -24,7 +24,7 @@ body {
 	font-size: 15px;
 	font-family: 'JetBrains Mono';
 	color: #feffff;
-	background: #1a1a1d;
+	background: #1c1a1d;
 }
 
 header {
@@ -75,10 +75,10 @@ header {
 }
 
 .container {
-	margin: 0 30%;
+	margin: 0 20%;
 }
 .title {
-	font-size: 7em;
+	font-size: 90px;
 	padding-top: 1rem;
 }
 
