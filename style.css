@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+span {
+	color: #3feee6;
+}
+
+.text {
+	font-size: 1.2em;
+	color: #acacac;
+	padding-bottom: 14rem;
+}
+
+.link {
+	color: #3feee6;
+}
+
+body {
+	font-size: 15px;
+	font-family: 'JetBrains Mono';
+	color: #feffff;
+	background: #1a1a1d;
+}
+
+header {
+	padding: 25px 25px;
+	position: sticky;
+	top: 0;
+
+	background: #1a1a1d;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-items {
+	list-style-type: none;
+	display: inline-flex;
+	align-items: center;
+}
+
+.nav-item {
+	color: #feffff;
+	background: #1a1a1d;
+	text-decoration: none;
+	margin: 0 25px;
+
+	transition: 0.4s ease-in-out;
+}
+
+.nav-item:hover {
+	color: #3feee6;
+}
+
+.contact-btn {
+	color: #f79e02;
+	text-decoration: none;
+	padding: 15px;
+	border: 2px solid #f79e02;
+	border-radius: 10px;
+
+	transition: 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+	color: #feffff;
+	background: #f79e02;
+}
+
+.container {
+	margin: 0 30%;
+}
+.title {
+	font-size: 7em;
+	padding-top: 1rem;
+}
+
+.start {
+	padding-top: 8rem;
+}
+
+.about,
+.projects,
+.github {
+	padding-top: 10rem;
+}
+
+.about-title {
+	font-size: 7em;
+}
+
+footer {
+	display: block;
+	text-align: center;
+	padding: 30px 0;
+}
