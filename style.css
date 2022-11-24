@@ -86,6 +86,10 @@ header {
 	padding-top: 8rem;
 }
 
+.start-sub-title {
+	font-size: 20px;
+} 
+
 .about,
 .projects,
 .github {
@@ -100,4 +104,12 @@ footer {
 	display: block;
 	text-align: center;
 	padding: 30px 0;
+}
+
+@media screen and (max-device-width: 450px) {
+	.nav {
+		font-size: 40px;
+		display: flex;
+		justify-content: center;
+	}
 }
