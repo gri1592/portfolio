@@ -88,7 +88,7 @@ header {
 
 .start-sub-title {
 	font-size: 20px;
-} 
+}
 
 .about,
 .projects,
@@ -112,4 +112,16 @@ footer {
 		display: flex;
 		justify-content: center;
 	}
+
+	body {
+		font-size: 30px;
+	}
+
+	.start-sub-title {
+		font-size: 40px;
+	}
+
+	.about-title {
+	font-size: 14em;
+}
 }
