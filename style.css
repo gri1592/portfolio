@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+:root {
+	--main-span-color: #64ffda;
+}
 
 * {
 	margin: 0;
@@ -7,7 +9,7 @@
 }
 
 span {
-	color: #3feee6;
+	color: #64ffda;
 }
 
 .text {
@@ -17,17 +19,19 @@ span {
 }
 
 .link {
-	color: #3feee6;
+	color: #64ffda;
 }
 
 body {
 	font-size: 15px;
-	font-family: 'JetBrains Mono';
+	font-family: 'Space Mono';
 	color: #feffff;
 	background: #1c1a1d;
 }
 
 header {
+	display: flex;
+  justify-content: space-between;
 	padding: 25px 25px;
 	position: sticky;
 	top: 0;
@@ -56,22 +60,11 @@ header {
 }
 
 .nav-item:hover {
-	color: #3feee6;
+	color: #64ffda;
 }
 
-.contact-btn {
-	color: #f79e02;
-	text-decoration: none;
-	padding: 15px;
-	border: 2px solid #f79e02;
-	border-radius: 10px;
-
-	transition: 0.3s ease-in-out;
-}
-
-.contact-btn:hover {
-	color: #feffff;
-	background: #f79e02;
+.home:hover {
+	scale: 1.8 1.8;
 }
 
 .container {
