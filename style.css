@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -21,7 +23,7 @@ span {
 
 body {
 	font-size: 15px;
-	font-family: 'Space Mono';
+	font-family: 'JetBrains Mono';
 	color: #feffff;
 	background: #1c1a1d;
 }
